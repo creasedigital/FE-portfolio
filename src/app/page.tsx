@@ -11,7 +11,7 @@ const HomeView: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowNewComponent(true);
-    }, 1000);
+    }, 10000);
 
     return () => clearTimeout(timer); // Clean up the timer on component unmount
   }, []);

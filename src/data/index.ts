@@ -9,6 +9,25 @@ const text = {
   yearsOfExperience: new Date().getFullYear() - 2020,
 };
 
+const navLinks = [
+  {
+    name: "Home",
+    link: "/",
+  },
+  {
+    name: "About",
+    link: "/about",
+  },
+  {
+    name: "Projects",
+    link: "/projects",
+  },
+  {
+    name: "Contact",
+    link: "/contact",
+  },
+];
+
 const projects = [
   {
     name: "Zest Marketplace",

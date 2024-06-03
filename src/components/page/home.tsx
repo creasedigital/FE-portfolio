@@ -3,6 +3,8 @@ import React from "react";
 import Carousel from "../ui/carousel";
 
 const Home = () => {
+    // bg-gradient-to-r from-accent to-mood 
+    // bg-accent
   return (
     <main className="min-h-screen bg-white relative z-20 p-10 flex w-screen">
       <aside className={``}></aside>

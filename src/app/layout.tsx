@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { mukta } from "@/font";
+import Navigation from "@/components/sidebar";
 
 
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${mukta.className} flex flex-col bg-dark min-h-screen`}>{children}</body>
+      <body className={`${mukta.className} flex flex-col bg-dark min-h-screen`}>
+        <Navigation />
+        {children}
+        </body>
     </html>
   );
 }
